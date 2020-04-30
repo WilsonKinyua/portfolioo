@@ -1,45 +1,4 @@
-﻿<!DOCTYPE html>
-<html lang="en">
-
-<head>
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta name="description" content="">
-  <meta name="keywords" content="">
-	<meta name="author" content="wilson kinyua">
-
-	<title>IAM WILSON</title>
-
-  <!-- Web Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Roboto:400,300,500,700' rel='stylesheet' type='text/css'>
-	<!-- Bootstrap core CSS -->
-	<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet" media="screen">
-	<!-- Font Awesome CSS -->
-	<link href="assets/css/font-awesome.min.css" rel="stylesheet" media="screen">
-	<!-- Animate css -->
-  <link href="assets/css/animate.css" rel="stylesheet">
-  <!-- Magnific css -->
-	<link href="assets/css/magnific-popup.css" rel="stylesheet">
-	<!-- Custom styles CSS -->
-	<link href="assets/css/style.css" rel="stylesheet" media="screen">
-  <!-- Responsive CSS -->
-  <link href="assets/css/responsive.css" rel="stylesheet">
-
-  <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
-  <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
-  <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-  <![endif]-->
-
-  <link rel="shortcut icon" href="assets/images/ico/favicon.png">
-  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/images/ico/apple-touch-icon-144-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/images/ico/apple-touch-icon-114-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/images/ico/apple-touch-icon-72-precomposed.png">
-  <link rel="apple-touch-icon-precomposed" href="assets/images/ico/apple-touch-icon-57-precomposed.png">
-
-</head>
-
+﻿<?php include "includes/header.php" ?>
 <body>
 	<!-- Preloader -->
 	<!-- <div id="tt-preloader">
@@ -52,7 +11,7 @@
 	<section id="home" class="tt-fullHeight" data-stellar-vertical-offset="50" data-stellar-background-ratio="0.2">
 		<div class="intro">
 			<div class="intro-sub">I am Wilson</div>
-			<h1>Front End <span>Developer</span></h1>
+			<h1>Full Stack <span>Developer</span></h1>
 			<p>I am a fully professional freelance creative User Interface Designer &amp; Developer<br> Involving with latest web designing and technologies is a great <br> feel free to contact me.</p>
 
       <div class="social-icons">
@@ -84,7 +43,7 @@
 						<span class="icon-bar"></span>
 						<span class="icon-bar"></span>
 					</button>
-					<a class="navbar-brand" href="index.html"><img src="assets/images/logo.png" alt=""></a>
+					<a class="navbar-brand" href="index.php"><img src="assets/images/logo.png" alt=""></a>
 				</div>
 
 				<div class="collapse navbar-collapse" id="custom-collapse">
@@ -116,7 +75,7 @@
                 <img src="assets/images/myphoto.jpg" alt="">
               </div>
               <ul>
-                <li><strong>Name:</strong> Wilson Kinyua</li>
+                <li><strong>Name:</strong> Wilson Kinyua Muthoni</li>
                 <li><strong>Date of birth:</strong> 05 Feb ****</li>
                 <li><strong>Address:</strong> Nairobi , Kenya</li>
                 <li><strong>Nationality:</strong> Kenya</li>
@@ -129,25 +88,29 @@
           <div class="col-md-8 col-md-pull-4">
             <div class="short-info wow fadeInUp">
               <h3>Objective</h3>
-              <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in front and back end development. I focus on using my interpersonal skills to build good user experience and create a strong interest in my employers. I hope to develop skills in web design and my knowledge of graphic design, and become an honest asset to the business. As an individual, I'm self-confident you’ll find me creative, funny and naturally passionate. I’m a forward thinker, which others may find inspiring when working as a team.</p>
+              <p>An opportunity to work and upgrade oneself, as well as being involved in an organization that believes in gaining a competitive edge and giving back to the community. I'm presently expanding my solid experience in front-end, back-end and android development. I focus on using my interpersonal skills to build good user experience and create a 
+                strong interest in my employers. I hope to develop skills in web design, android development and my knowledge of graphic design, and become an honest asset to the business. As an individual, I'm self-confident you’ll find me creative, funny and naturally passionate. I’m a forward thinker, which others may find inspiring when working as a team.</p>
             </div>
 
             <div class="short-info wow fadeInUp">
               <h3>What I Do ?</h3>
-              <p>I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3, HTML5 and boostrap for modern websites. I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.I am Expert in: </p>
+              <p>I have been working as a web interface designer since. I have a love of clean, elegant styling, and I have lots of experience in the production of CSS3, HTML5, boostrap and JavaScript for modern websites.
+                 I loving creating awesome as per my clients’ need. I think user experience when I try to craft something for my clients. Making a design awesome.<!-- I am Expert in:  --></p>
 
-              <ul class="list-check">
+              <!-- <ul class="list-check">
                 <li>User Experience Design</li>
                 <li>Interface Design</li>
                 <li>Product Design</li>
                 <li>Branding Design</li>
                 <li>Logo Design</li>
                 <li>Photo Editing</li>
-              </ul>
+              </ul> -->
             </div>
             <div class="short-info wow fadeInUp">
               <h3>What am actually teaching myself on?</h3>
-              <p>I am currently learning and upgrading my skills in JS through learning Reactjs, Angular , NodeJS and also focusing on data Science. <br>If you want to begin the journey of a web/application developer , I would recommend this course on <strong><a href="https://www.udemy.com/course/the-web-developer-bootcamp/">UDEMY.</a></strong> <br> Follow the link above and you won't regret on it.I have been able to learn alot from this online school.</p>
+              <p>I am currently learning and upgrading my skills in android development and backend development. 
+                <br>If you want to begin the journey of a web/application developer , I would recommend this course on <strong>
+                  <a href="https://www.udemy.com/course/the-web-developer-bootcamp/"><b>UDEMY.</b></a></strong> <br> Follow the link above and you won't regret on it.I have been able to learn alot from the above online school.</p>
             </div>
 
           </div>
@@ -235,13 +198,71 @@
             <div class="row">
                 <div class="col-md-12">
                     <div class="resume-title">
-                        <h3>Experience</h3>
+                        <h3 >Experience</h3>
                     </div>
                     <div class="resume">
                         <ul class="timeline">
+                        <li>
+                                <div class="posted-date">
+                                  <span class="month">APRIL 2020- NOW</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>FULL STACK DEVELOPER</h3>
+                                            <span>Upwork.com</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Professional freelance creative User Interface Designer Developer Involving with 
+                                            latest web designing and technologies.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+                                 
+                        <li class="timeline-inverted">
+                                <div class="posted-date">
+                                  <span class="month">FEB 2020-APRIL 2020</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3> ENGINEER , NETWORKING</h3>
+                                            <span>Computer Ways Company Limited </span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Able to meet new workmates who got challenging me and kept pushing me on to learn new skills everyday which has made me who am today.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div> <!-- /timeline-panel -->
+                            </li>
+
+                        <li>
+                                <div class="posted-date">
+                                  <span class="month">JAN 2020- FEB 2020</span>
+                                </div><!-- /posted-date -->
+
+                                <div class="timeline-panel wow fadeInUp">
+                                    <div class="timeline-content">
+                                        <div class="timeline-heading">
+                                            <h3>WEB AND GRAPHIC DESIGNER</h3>
+                                            <span>Web Cloud Ltd Kenya</span>
+                                        </div><!-- /timeline-heading -->
+
+                                        <div class="timeline-body">
+                                            <p>Able to meet hardworking software engineers like me who kept showing me on how to solve challenges in an easy way without stressing myself.</p>
+                                        </div><!-- /timeline-body -->
+                                    </div> <!-- /timeline-content -->
+                                </div><!-- /timeline-panel -->
+                            </li>
+
                             <li class="timeline-inverted">
                                 <div class="posted-date">
-                                  <span class="month">MAY 2019-NOW</span>
+                                  <span class="month">MAY 2019-NOV 2019</span>
                                 </div><!-- /posted-date -->
 
                                 <div class="timeline-panel wow fadeInUp">
@@ -331,7 +352,7 @@
             <div class="skill-progress">
               <div class="skill-title"><h3>HTML</h3></div> 
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="85" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="99" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
@@ -339,21 +360,35 @@
             <div class="skill-progress">
               <div class="skill-title"><h3>CSS</h3></div> 
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
             <div class="skill-progress">
               <div class="skill-title"><h3>BOOTSTRAP</h3></div>  
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div>
              <div class="skill-progress">
               <div class="skill-title"><h3>JS</h3></div> 
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="92" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>PHP</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>MYSQL</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
@@ -363,14 +398,21 @@
             <div class="skill-progress">
               <div class="skill-title"><h3>Python</h3></div> 
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                </div>
+              </div><!-- /.progress -->
+            </div><!-- /.skill-progress -->
+            <div class="skill-progress">
+              <div class="skill-title"><h3>WORDPRESS</h3></div> 
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div><!-- /.skill-progress -->
             <div class="skill-progress">
               <div class="skill-title"><h3>Photoshop</h3></div> 
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div>
@@ -378,14 +420,21 @@
             <div class="skill-progress">
               <div class="skill-title"><h3>Adobe Illustrator</h3></div>  
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="95" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div>
             <div class="skill-progress">
               <div class="skill-title"><h3>Adobe Lightroom</h3></div>  
               <div class="progress">
-                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span></span>
+                </div>
+              </div><!-- /.progress -->
+            </div>
+            <div class="skill-progress">
+              <div class="skill-title"><h3>Corel Draw</h3></div>  
+              <div class="progress">
+                <div class="progress-bar six-sec-ease-in-out" role="progressbar" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100" ><span></span>
                 </div>
               </div><!-- /.progress -->
             </div>
@@ -400,7 +449,7 @@
           
         <div class="row more-skill text-center">
           <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="91" data-color="e74c3c">
+              <div class="chart" data-percent="99" data-color="e74c3c">
                     <span class="percent"></span>
                     <div class="chart-text">
                       <span>leadership</span>
@@ -408,7 +457,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="90" data-color="2ecc71">
+              <div class="chart" data-percent="99" data-color="2ecc71">
                     <span class="percent"></span>
                     <div class="chart-text">
                       <span>Creativity</span>
@@ -416,7 +465,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="89" data-color="3498db">
+              <div class="chart" data-percent="99" data-color="3498db">
                     <span class="percent"></span>
                     <div class="chart-text">
                       <span>Management</span>
@@ -424,7 +473,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="90" data-color="3498db">
+              <div class="chart" data-percent="99" data-color="3498db">
                     <span class="percent"></span>
                     <div class="chart-text">
                       <span>Branding</span>
@@ -432,7 +481,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="80" data-color="3498db">
+              <div class="chart" data-percent="90" data-color="3498db">
                     <span class="percent"></span>
                     <div class="chart-text">
                       <span>Marketing</span>
@@ -440,7 +489,7 @@
                 </div>
             </div>
             <div class="col-xs-12 col-sm-4 col-md-2">
-              <div class="chart" data-percent="90" data-color="3498db">
+              <div class="chart" data-percent="99" data-color="3498db">
                     <span class="percent"></span>
                     <div class="chart-text">
                       <span>Motivation</span>
@@ -468,17 +517,17 @@
 
         <div class="row">
           <div id="grid">
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface"]'>
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "interface" , "web"]'>
               <div class="portfolio-bg">
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-1.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
+                    <a class="image-link" href="assets/images/works/school.png"><i class="fa fa-search-plus"></i></a>
+                    <a href="https://wilsonkinyua.github.io/school/"><i class="fa fa-link"></i></a>                          
                   </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-1.jpg" alt="image"> 
+                  <img src="assets/images/works/school.png" alt="image"> 
                   <div class="portfolio-info">
-                    <h3>Drawing</h3>
+                    <h3>School Website</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -490,72 +539,72 @@
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-2.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="https://wilsonkinyua.github.io/cloudtravel.com/"><i class="fa fa-link"></i></a>                          
+                    <a class="image-link" href="assets/images/works/blog.png"><i class="fa fa-search-plus"></i></a>
+                    <a href="https://wilsonkinyua.github.io/cmsblog/"><i class="fa fa-link"></i></a>                          
                   </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-2.jpg" alt="image">
+                  <img src="assets/images/works/blog.png" alt="image">
                   <div class="portfolio-info">
-                    <h3>Cloud Travel Company</h3>
+                    <h3>CMS BLOG SYSTEM</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface"]'>
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "interface" , "web"]'>
               <div class="portfolio-bg">
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-3.jpg"><i class="fa fa-search-plus"></i></a>
-                    <a href="#"><i class="fa fa-link"></i></a>                          
+                    <a class="image-link" href="assets/images/works/continental.png"><i class="fa fa-search-plus"></i></a>
+                    <a href="continentalstructures.co.ke"><i class="fa fa-link"></i></a>                          
                   </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-3.jpg" alt="image"> 
+                  <img src="assets/images/works/continental.png" alt="image"> 
                   <div class="portfolio-info">
-                    <h3>Drawings</h3>
+                    <h3>Construction Website</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design", "web"]'>
               <div class="portfolio-bg">
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-4.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a class="image-link" href="assets/images/works/insterior.png"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>                          
                   </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-4.jpg" alt="image"> 
+                  <img src="assets/images/works/insterior.png" alt="image"> 
                   <div class="portfolio-info">
-                    <h3>Logo Design</h3>
+                    <h3>Interior Design</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design" , "web"]'>
               <div class="portfolio-bg">
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-5.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a class="image-link" href="assets/images/works/meaps.png"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>                          
                   </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-5.jpg" alt="image"> 
+                  <img src="assets/images/works/meaps.png" alt="image"> 
                   <div class="portfolio-info">
-                    <h3>Marketing</h3>
+                    <h3>Loan Company</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
             </div><!-- /.portfolio-item -->
-            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design"]'>
+            <div class="portfolio-item col-xs-12 col-sm-4 col-md-3" data-groups='["all", "identety", "design" , "web"]'>
               <div class="portfolio-bg">
                 <div class="portfolio">
                   <div class="tt-overlay"></div>
                   <div class="links">
-                    <a class="image-link" href="assets/images/works/portfolio-6.jpg"><i class="fa fa-search-plus"></i></a>
+                    <a class="image-link" href="assets/images/works/modus.png"><i class="fa fa-search-plus"></i></a>
                     <a href="#"><i class="fa fa-link"></i></a>                          
                   </div><!-- /.links -->
-                  <img src="assets/images/works/portfolio-6.jpg" alt="image"> 
+                  <img src="assets/images/works/modus.png" alt="image"> 
                   <div class="portfolio-info">
-                    <h3>Branding</h3>
+                    <h3>Modus</h3>
                   </div><!-- /.portfolio-info -->
                 </div><!-- /.portfolio -->
               </div><!-- /.portfolio-bg -->
@@ -605,17 +654,17 @@
               <div class="count-wrap">
                 <div class="col-sm-3 col-xs-6">
                   <i class="fa fa-flask"></i>
-                  <h3 class="timer">2</h3>
+                  <h3 class="timer">3</h3>
                   <p>Years of Experience</p>
                 </div>
                 <div class="col-sm-3 col-xs-6"> 
                   <i class="fa fa-thumbs-up"></i>
-                  <h3 class="timer">30</h3>                
+                  <h3 class="timer">40</h3>                
                   <p>Projects Done</p>
                 </div>
                 <div class="col-sm-3 col-xs-6">
                   <i class="fa fa-users"></i>
-                  <h3 class="timer">16</h3> 
+                  <h3 class="timer">20</h3> 
                   <p>Happy Clients</p>
                 </div>
                 <div class="col-sm-3 col-xs-6">
@@ -806,7 +855,7 @@
             </div>
               
             <div class="download-button">
-              <a class="btn btn-info btn-lg" href="formpage.html"><i class="fa fa-paper-plane"></i>Send me a message</a>
+              <a class="btn btn-info btn-lg" href="formpage.php"><i class="fa fa-paper-plane"></i>Send me a message</a>
               <!-- <a class="btn btn-primary btn-lg" href="#"><i class="fa fa-download"></i>download my cv</a> -->
             </div>
           </div><!-- /.col-md-6 -->
@@ -845,80 +894,4 @@
       </div><!-- /.container -->
     </section><!-- End Contact Section -->
 
-
-	<!-- Footer Section -->
-    <footer class="footer-wrapper">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-12">
-            <div id="last" class="copyright text-center">
-              Copyright © 2019 wilson | Terms | Privacy and Cookie Policy | Help and Support <br>
-              Made with <i id="iconicon" class="fa fa-heart"></i> by Software Developer Wilson
-            </div>
-          </div>
-        </div>
-      </div>
-    </footer><!-- End Footer Section -->
-
-
-	<!-- Scroll-up -->
-	<div class="scroll-up">
-		<a href="#home"><i  class="fa fa-angle-up"></i></a>
-	</div>
-
-	<!-- Javascript files -->
-	<script src="assets/js/jquery.js"></script>
-	<script src="assets/bootstrap/js/bootstrap.min.js"></script>
-  <script src="assets/js/jquery.stellar.min.js"></script>
-	<script src="assets/js/jquery.sticky.js"></script>
-  <script src="assets/js/smoothscroll.js"></script>
-	<script src="assets/js/wow.min.js"></script>
-  <script src="assets/js/jquery.countTo.js"></script>
-  <script src="assets/js/jquery.inview.min.js"></script> 
-  <script src="assets/js/jquery.easypiechart.js"></script>
-  <script src="assets/js/jquery.shuffle.min.js"></script>
-  <script src="assets/js/jquery.magnific-popup.min.js"></script>
-  <script src="http://a.vimeocdn.com/js/froogaloop2.min.js"></script>
-  <script src="assets/js/jquery.fitvids.js"></script>
-  <script src="https://maps.googleapis.com/maps/api/js?v=3.exp&amp;sensor=false"></script>
-  <script src="assets/js/scripts.js"></script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
- <!-- Video Section -->
- <!-- <section id="video" class="video-section"> -->
-  <!-- <div class="tf-bg-overlay"> -->
-
-    <!-- <div class="container"> -->
-      <!-- <div class="video-intro"> -->
-         <!-- <a class="popup-video" href="https://www.youtube.com/watch?v=jAr4ZtLnmn0&feature=youtu.be"> <i class="fa fa-play"></i>  </a> -->
-         <!-- <h2>Video Introducing</h2> -->
-      <!-- </div> -->
-
-    <!-- </div> -->
-
-    <!--/.container-->
-  <!-- </div> -->
-  <!--/.overlay-->
-<!-- </section> -->
-<!-- /.Video Section -->
+<?php include "includes/footer.php" ?>
