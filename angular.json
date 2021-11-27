@@ -31,8 +31,15 @@
             ],
             "scripts": [
               "./node_modules/jquery/dist/jquery.min.js",
-              "./node_modules/bootstrap/dist/js/bootstrap.min.js",
-             "./src/assets/js/scripts.js"
+              "./src/assets/js/vendor/modernizer.min.js",
+              "./src/assets/js/vendor/feather.min.js",
+              "./src/assets/js/vendor/slick.min.js",
+              "./src/assets/js/vendor/bootstrap.js",
+              "./src/assets/js/vendor/text-type.js",
+             "./src/assets/js/vendor/wow.js",
+             "./src/assets/js/vendor/aos.js",
+             "./src/assets/js/vendor/particles.js",
+             "./src/assets/js/main.js"
             ]
           },
           "configurations": {
