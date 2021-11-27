@@ -1,4 +1,5 @@
 @import url('./assets/css/vendor/bootstrap.min.css');
 @import url('./assets/css/vendor/aos.css');
 @import url('./assets/css/plugins/feature.css');
+@import '~font-awesome/css/font-awesome.css';
 @import url('./assets/css/style.css');

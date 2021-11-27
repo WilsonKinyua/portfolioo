@@ -30,7 +30,7 @@
               "src/styles.css"
             ],
             "scripts": [
-              "./node_modules/jquery/dist/jquery.min.js",
+              "./src/assets/js/vendor/jquery.js",
               "./src/assets/js/vendor/modernizer.min.js",
               "./src/assets/js/vendor/feather.min.js",
               "./src/assets/js/vendor/slick.min.js",

@@ -1,43 +1,7 @@
-/*---------------------------
- CSS Index
-****************************
-
-01. Variables
-02. Typography
-03. Spacing
-04. Reset
-05. Forms
-06. Shortcode
-07. Common
-08. Animations
-09. Text Animation
-10. Header
-11. Nav
-12. Mobilemenu
-13. Rightdemo
-14. Button
-15. Accordion
-16. Section Title
-17. Banner
-18. Service
-19. Modal
-20. Skill
-21. Progressbar
-22. Testimonial
-23. Clients
-24. Pricing
-25. Contact
-26. About
-27. Brand
-28. Footer
-29. Portfolio
-30. Slickstyle
-31. Home Classic
-32. White Version
-----------------------------*/
 /* Default  */
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@200;300;400;500;600;700&amp;display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&amp;display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 :root {
   --color-primary: #ff014f;
   --color-secondary: #f4f5f6;
@@ -147,6 +111,9 @@ body {
   }
 }
 
+.color-primary {
+  color:var(--color-primary);
+}
 h1,
 h2,
 h3,
@@ -310,7 +277,15 @@ h6 a,
     font-size: 16px;
   }
 }
+.button-main {
+  font-size:16px;
+  color:white;
+  font-weight:700;
+}
 
+button, a.btn {
+  border-radius:5px;
+}
 h1,
 .h1,
 h2,
@@ -10378,7 +10353,7 @@ xclip
 /*---------------------------
     Header Area Styles
 -----------------------------*/
-body.template-color-1 {
+body.main-body-color {
   background-color: #212428;
 }
 
@@ -10392,6 +10367,10 @@ body.template-color-1 {
 .nav-pills .nav-link {
   margin: 0.5rem 1rem;
   padding: 0;
+}
+
+.logo{
+  font-family: 'Pacifico', cursive;
 }
 
 .header-wrapper {
@@ -10896,7 +10875,7 @@ body.template-color-1 {
   right: 0;
   background-color: rgba(0, 0, 0, 0.8);
   visibility: hidden;
-  opacity: 0;
+  opacity: 1;
   transition: opacity 0.5s ease-out;
 }
 .popup-mobile-menu .inner {
@@ -10910,7 +10889,7 @@ body.template-color-1 {
   display: flex;
   flex-direction: column;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
-  opacity: 0;
+  opacity: 1;
   left: -150px;
   transition: all 0.5s ease-out;
 }
@@ -10925,7 +10904,7 @@ body.template-color-1 {
   padding-bottom: 20px;
 }
 .popup-mobile-menu .inner .menu-top .menu-header {
-  display: flex;
+  /* display: flex; */
   justify-content: space-between;
   align-items: center;
 }
@@ -12276,6 +12255,15 @@ figcaption {
   vertical-align: middle;
   max-width: 100%;
   height: auto;
+}
+
+.my-profile {
+  margin-top: -150px;
+}
+@media only screen and (max-width: 767px) {
+  .my-profile {
+    margin-top: -80px;
+  }
 }
 .slide .thumbnail.box-gradient::before {
   width: 100%;
