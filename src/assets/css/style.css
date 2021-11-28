@@ -10874,9 +10874,13 @@ body.main-body-color {
   left: 0;
   right: 0;
   background-color: rgba(0, 0, 0, 0.8);
-  visibility: hidden;
+  /* visibility: hidden; */
   opacity: 1;
   transition: opacity 0.5s ease-out;
+}
+
+.remove-visibility {
+  visibility: hidden !important;
 }
 .popup-mobile-menu .inner {
   padding: 25px 40px;
@@ -10890,7 +10894,7 @@ body.main-body-color {
   flex-direction: column;
   box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.7);
   opacity: 1;
-  left: -150px;
+  /* left: -150px; */
   transition: all 0.5s ease-out;
 }
 @media only screen and (max-width: 479px) {

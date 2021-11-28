@@ -38,46 +38,53 @@
       <div data-aos-delay="600" class="col-lg-7 contact-input">
         <div class="contact-form-wrapper">
           <div class="introduce">
-
-            <form class="rnt-contact-form rwt-dynamic-form row">
-
+            <form class="rnt-contact-form rwt-dynamic-form row" (ngSubmit)="sendMessage(f)" #f="ngForm">
+              <div class="col-md-12">
+                <div class="alert alert-success text-center" role="alert" *ngIf="showSuccessMessage">
+                  <strong>Success!</strong> Message sent. I will get back to you as soon as possible. Thank you. 😃
+                </div>
+              </div>
               <div class="col-lg-6">
                 <div class="form-group">
                   <label for="contact-name">Your Name</label>
-                  <input class="form-control form-control-lg" name="name" id="contact-name" type="text">
+                  <input class="form-control form-control-lg" name="name" id="contact-name" type="text" #name ngModel
+                    required>
                 </div>
               </div>
 
               <div class="col-lg-6">
                 <div class="form-group">
                   <label for="contact-phone">Phone Number</label>
-                  <input class="form-control" name="contact-phone" id="phone" type="text">
+                  <input class="form-control" name="phone" id="phone" type="text" #phone ngModel>
                 </div>
               </div>
 
               <div class="col-lg-12">
                 <div class="form-group">
                   <label for="contact-email">Email</label>
-                  <input class="form-control form-control-sm" id="email" name="contact-email" type="email">
+                  <input class="form-control form-control-sm" id="email" name="email" type="email" #email ngModel
+                    required>
                 </div>
               </div>
 
               <div class="col-lg-12">
                 <div class="form-group">
                   <label for="subject">subject</label>
-                  <input class="form-control form-control-sm" id="subject" name="subject" type="text">
+                  <input class="form-control form-control-sm" id="subject" name="subject" type="text" #subject ngModel
+                    >
                 </div>
               </div>
 
               <div class="col-lg-12">
                 <div class="form-group">
                   <label for="contact-message">Your Message</label>
-                  <textarea name="message" id="contact-message" cols="30" rows="10"></textarea>
+                  <textarea name="message" id="contact-message" cols="30" rows="10" #message ngModel
+                    required></textarea>
                 </div>
               </div>
 
               <div class="col-lg-12">
-                <button name="submit" type="submit" id="submit" class="rn-btn">
+                <button type="submit" id="submit" class="rn-btn">
                   <span>SEND MESSAGE</span>
                   <i class="fa fa-arrow-right"></i>
                 </button>
