@@ -5947,7 +5947,7 @@ Background Image
   background-size: cover;
   background-position: center center;
 }
-
+/*
 .bg_image--1 {
   background-image: url(../images/bg/bg-image-1.jpg);
 }
@@ -6106,7 +6106,7 @@ Background Image
 
 .bg_image--40 {
   background-image: url(../images/bg/bg-image-40.html);
-}
+} */
 
 /* Height and width */
 .fullscreen {
@@ -12802,8 +12802,8 @@ figcaption {
 }
 
 .thumbnail.masking .inner {
-  -webkit-mask-image: url("../images/icones/shape1.svg");
-  mask-image: url("../images/icones/shape1.svg");
+  /* -webkit-mask-image: url("../images/icones/shape1.svg");
+  mask-image: url("../images/icones/shape1.svg"); */
   -webkit-mask-position: center center;
   mask-position: center center;
   -webkit-mask-size: 100%;
