@@ -20,6 +20,7 @@ export class SendMessageService {
       email: email,
       phone: phone,
       subject: subject,
+      date: new Date(),
     };
     return this.http.post(
       'https://my-portfolio-website-82420-default-rtdb.firebaseio.com/messages.json',

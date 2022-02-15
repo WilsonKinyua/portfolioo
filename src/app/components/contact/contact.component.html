@@ -44,6 +44,11 @@
                   <strong>Success!</strong> Message sent. I will get back to you as soon as possible. Thank you. 😃
                 </div>
               </div>
+              <div class="col-md-12">
+                <div class="alert alert-danger text-center" role="alert" *ngIf="showDangerMessage">
+                  Please fill in all the fields.
+                </div>
+              </div>
               <div class="col-lg-6">
                 <div class="form-group">
                   <label for="contact-name">Your Name</label>
@@ -71,7 +76,7 @@
                 <div class="form-group">
                   <label for="subject">subject</label>
                   <input class="form-control form-control-sm" id="subject" name="subject" type="text" #subject ngModel
-                    >
+                    required>
                 </div>
               </div>
 
